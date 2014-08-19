@@ -21,6 +21,8 @@
 		231C1C2719A327D20011513D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231C1C0919A327D10011513D /* UIKit.framework */; };
 		231C1C2F19A327D20011513D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 231C1C2D19A327D20011513D /* InfoPlist.strings */; };
 		231C1C3119A327D20011513D /* Arman19_08_14Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 231C1C3019A327D20011513D /* Arman19_08_14Tests.m */; };
+		231C1C3C19A3286E0011513D /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 231C1C3B19A3286E0011513D /* MyClass.m */; };
+		231C1C4219A35C830011513D /* TableClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 231C1C4119A35C830011513D /* TableClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		231C1C2C19A327D20011513D /* Arman19.08.14Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arman19.08.14Tests-Info.plist"; sourceTree = "<group>"; };
 		231C1C2E19A327D20011513D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		231C1C3019A327D20011513D /* Arman19_08_14Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arman19_08_14Tests.m; sourceTree = "<group>"; };
+		231C1C3A19A3286E0011513D /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		231C1C3B19A3286E0011513D /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		231C1C4019A35C830011513D /* TableClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableClass.h; sourceTree = "<group>"; };
+		231C1C4119A35C830011513D /* TableClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				231C1C1A19A327D10011513D /* ViewController.h */,
 				231C1C1B19A327D10011513D /* ViewController.m */,
 				231C1C1D19A327D20011513D /* Images.xcassets */,
+				231C1C3A19A3286E0011513D /* MyClass.h */,
+				231C1C3B19A3286E0011513D /* MyClass.m */,
+				231C1C4019A35C830011513D /* TableClass.h */,
+				231C1C4119A35C830011513D /* TableClass.m */,
 				231C1C0C19A327D10011513D /* Supporting Files */,
 			);
 			path = Arman19.08.14;
@@ -249,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231C1C3C19A3286E0011513D /* MyClass.m in Sources */,
 				231C1C1C19A327D10011513D /* ViewController.m in Sources */,
 				231C1C1619A327D10011513D /* AppDelegate.m in Sources */,
+				231C1C4219A35C830011513D /* TableClass.m in Sources */,
 				231C1C1219A327D10011513D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Arman19.08.14/Arman19.08.14-Prefix.pch";
 				INFOPLIST_FILE = "Arman19.08.14/Arman19.08.14-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Arman19.08.14/Arman19.08.14-Prefix.pch";
 				INFOPLIST_FILE = "Arman19.08.14/Arman19.08.14-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
